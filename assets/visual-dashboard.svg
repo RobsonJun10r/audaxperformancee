@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Painel de performance</title>
+  <desc id="desc">Interface abstrata com graficos e indicadores de campanhas de midia paga.</desc>
+  <defs>
+    <linearGradient id="orange" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffb46a"/>
+      <stop offset="0.45" stop-color="#ff6a00"/>
+      <stop offset="1" stop-color="#9d3300"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="72%" cy="18%" r="60%">
+      <stop offset="0" stop-color="#ff6a00" stop-opacity=".42"/>
+      <stop offset="1" stop-color="#ff6a00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="620" rx="36" fill="#070707"/>
+  <rect width="900" height="620" rx="36" fill="url(#glow)"/>
+  <g opacity=".22">
+    <path d="M0 108h900M0 216h900M0 324h900M0 432h900M0 540h900" stroke="#fff"/>
+    <path d="M128 0v620M256 0v620M384 0v620M512 0v620M640 0v620M768 0v620" stroke="#fff"/>
+  </g>
+  <rect x="64" y="58" width="772" height="72" rx="20" fill="#111" stroke="#ffffff22"/>
+  <circle cx="103" cy="94" r="10" fill="#ff6a00"/>
+  <circle cx="136" cy="94" r="10" fill="#ffffff55"/>
+  <circle cx="169" cy="94" r="10" fill="#ffffff33"/>
+  <rect x="620" y="84" width="158" height="16" rx="8" fill="#ffffff38"/>
+  <rect x="64" y="172" width="236" height="152" rx="24" fill="#ffffff09" stroke="#ffffff22"/>
+  <rect x="332" y="172" width="236" height="152" rx="24" fill="#ffffff09" stroke="#ffffff22"/>
+  <rect x="600" y="172" width="236" height="152" rx="24" fill="#ffffff09" stroke="#ffffff22"/>
+  <path d="M102 278l44-62 48 34 64-76" fill="none" stroke="url(#orange)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M374 278h152" stroke="#ffffff24" stroke-width="14" stroke-linecap="round"/>
+  <path d="M374 232h104" stroke="#ff6a00" stroke-width="14" stroke-linecap="round"/>
+  <path d="M642 282c28-76 120-86 150-18" fill="none" stroke="#ff6a00" stroke-width="16" stroke-linecap="round"/>
+  <path d="M642 282c19-50 75-70 114-43" fill="none" stroke="#ffffff44" stroke-width="16" stroke-linecap="round"/>
+  <rect x="64" y="368" width="772" height="188" rx="28" fill="#ffffff08" stroke="#ffffff22"/>
+  <path d="M112 510V430M206 510v-42M300 510v-94M394 510v-58M488 510v-128M582 510v-76M676 510v-112M770 510v-46" stroke="#fff" stroke-opacity=".48" stroke-width="22" stroke-linecap="round"/>
+  <path d="M112 462c72-60 122 58 188-4 68-64 118 42 188-6 72-50 130 38 282-62" fill="none" stroke="url(#orange)" stroke-width="10" stroke-linecap="round"/>
+</svg>
